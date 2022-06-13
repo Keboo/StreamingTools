@@ -29,7 +29,7 @@ Task GenerateThumbnail(FileInfo baseImage, string title, string project, string 
     using var fileStream = baseImage.OpenRead();
     using var bitmap = SKBitmap.Decode(fileStream);
 
-    SKRect titleArea = new(130, 200, 1150, 630);
+    SKRect titleArea = new(130, 180, 1150, 630);
     DrawText(bitmap, title, titleArea, "Roboto Medium");
 
     SKRect projectArea = new(385, 30, 912, 80);
