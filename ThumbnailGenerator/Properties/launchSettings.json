@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ThumbnailGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "--title \"Material Design in XAML bug bash\" --project \"Material Design in XAML\" --technology \"C#/WPF\" --base-image XamlBackground.png --output Output.png"
+    }
+  }
+}

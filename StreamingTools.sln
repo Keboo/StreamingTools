@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03E8692D-6CB1-4D60-87D6-6A44F2A49424}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThumbnailGenerator", "ThumbnailGenerator\ThumbnailGenerator.csproj", "{5A1A26BF-8DB6-4443-9910-15525AB800BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A1A26BF-8DB6-4443-9910-15525AB800BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1A26BF-8DB6-4443-9910-15525AB800BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1A26BF-8DB6-4443-9910-15525AB800BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1A26BF-8DB6-4443-9910-15525AB800BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45ECF44A-50F9-4A7C-8792-3728E1092955}
+	EndGlobalSection
+EndGlobal
